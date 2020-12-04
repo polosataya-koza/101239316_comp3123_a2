@@ -1,10 +1,10 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import WeatherToronto from "./WeatherToronto";
+import Weather from "./Weather";
 
 function App() {
   return (
-      <WeatherToronto />
+      <Weather />
   );
 }
 
