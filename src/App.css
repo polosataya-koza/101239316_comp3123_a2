@@ -21,14 +21,26 @@ html, body, #root {
     flex-direction: column;
 }
 
+.topic {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 15px 1%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    color: #1e2432 ;
+    background: rgb(137, 210, 255);
+    box-shadow: 10px 10px 5px 0px rgba(15, 15, 15, 0.404);
+}
+
 .button-click {
-    margin-top: 10px;
-    width: 350px;
-    height: 180px;
+    margin-top: 5px;
+    width: 100px;
+    height: 50px;
     font-size: 1.5rem;
     font-weight: bold;
-    border-radius: 150px;
-    background: rgb(137, 210, 255);
+    border-radius: 50px;
+    background: cornflowerblue;
     box-shadow: 10px 10px 5px 0px rgba(15, 15, 15, 0.404);
 }
 
