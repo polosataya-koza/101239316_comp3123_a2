@@ -9,8 +9,7 @@ const Weather = () => {
     var date = new Date();
 
     const fetchWeather = async () => {
-        const { data } = await axios.get('http://api.openweathermap.org/data/2.5/weather?q=Toronto&units=metric&appid=3d1393770561b76e576aa6da96417dcc');
-            //6508c02ccc05f225734d2568a4c6dadd
+        const { data } = await axios.get('http://api.openweathermap.org/data/2.5/weather?q=Toronto&units=metric&appid=6508c02ccc05f225734d2568a4c6dadd');
         console.log(data);
         setWeather(data);
         return data;
