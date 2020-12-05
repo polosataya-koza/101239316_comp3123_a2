@@ -48,8 +48,8 @@ html, body, #root {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 10px 5%;
-    border-radius: 150px;
+    padding: 1px 5%;
+    border-radius: 120px;
     background: rgb(185, 218, 238);
     box-shadow: 10px 10px 5px 0px rgba(15, 15, 15, 0.404);
 }
@@ -62,7 +62,7 @@ p {
 }
 
 .city-temp {
-    font-size: 5rem;
+    font-size: 4em;
     font-weight: bold;
     margin-top: 10px;
     color: #1e2432;
@@ -70,7 +70,7 @@ p {
 }
 
 .city-temp-medf {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bold;
   margin-top: 10px;
   color: #1e2432;
@@ -78,7 +78,7 @@ p {
 }
 
 .city-temp-med {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
   margin-top: 10px;
   color: #1e2432;
@@ -97,12 +97,12 @@ p {
 }
 
 .city-name {
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
 }
 
 .city-name-med {
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: left;
 }
 
@@ -116,8 +116,8 @@ p {
 
 .city-icon {
     margin-top: 10px;
-    width: 130px;
-    height: 130px;
+    width: 100px;
+    height: 100px;
 }
 
 .info {
