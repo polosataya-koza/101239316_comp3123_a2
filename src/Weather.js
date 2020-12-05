@@ -20,7 +20,7 @@ const Weather = () => {
             <div className="topic">
             <h1>Weather in Toronto</h1>
             <button type="button" className="button-click" onClick={fetchWeather}>Upload</button>
-            </div><br/>
+            <br/><br/>
             {weather.main && (
                 <div className="city">
                     <h2 className="city-name"><span>{weather.name}, {weather.sys.country}</span></h2>
@@ -36,6 +36,7 @@ const Weather = () => {
                     </div>
                 </div>
             )}
+        </div>
         </div>
     );
 }
